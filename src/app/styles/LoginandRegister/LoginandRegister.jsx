@@ -1,0 +1,123 @@
+import React from 'react';
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: 50,
+    height: '100%',
+    width: '100%',
+    backgroundColor: '#71d3d6',
+  },
+  imagecontainerbackground: {
+    alignSelf: 'center',
+    marginTop: -320,
+    height: '70%',
+    width: '150%',
+    backgroundColor: '#DEF5F5',
+    borderRadius: 1000,
+    resizeMode: 'contain',
+    elevation: 10,
+  },
+  input: {
+    height: 60,
+    color:'black',
+    margin: 12,
+    marginHorizontal: 20,
+    borderRadius: 10,
+    overflow: 'hidden',
+    marginTop: 0,
+  },
+  linearlayoutinput: {
+    height: 60,
+    margin: 12,
+    marginHorizontal: 20,
+    borderRadius: 10,
+    overflow: 'hidden',
+    marginBottom: 15,
+  },
+  linearlayoutinputforregister: {
+    height: 60,
+    margin: 12,
+    marginHorizontal: 20,
+    borderRadius: 10,
+    overflow: 'hidden',
+    marginBottom: 10,
+  },
+
+  linearlayoutinputforregisterradio: {
+    height: 120,
+    margin: 12,
+    marginHorizontal: 20,
+    borderRadius: 10,
+    overflow: 'hidden',
+    marginBottom: 10,
+  },
+  textInput: {
+    flex: 1,
+    height: '100%',
+    width: '100%',
+    padding: 15,
+    fontFamily: 'Montserrat',
+  },
+  fontstyle: {
+    fontSize: 13,
+    letterSpacing: 0.5,
+    fontFamily: 'Montserrat',
+    color: '#000000',
+    // paddingTop:5,
+  },
+  imagebackground: {
+    justifyContent: 'flex-start',
+    resizeMode: 'contain',
+    flex: 0.8,
+  },
+
+  image: {
+    flex: 0.9,
+    justifyContent: 'center',
+    alignSelf: 'center',
+    resizeMode: 'contain',
+  },
+  loginandregisterHONEtext: {
+    color: '#051626',
+    fontSize: 30,
+    alignSelf: 'center',
+    fontWeight: 'bold',
+    letterSpacing: 1,
+    paddingTop: 10,
+    fontFamily: 'Montserrat',
+  },
+  loginandregisterHTWOtext: {
+    color: 'black',
+    fontSize: 15,
+    alignSelf: 'center',
+    letterSpacing: 1,
+    paddingTop: 10,
+    fontFamily: 'Montserrat',
+  },
+  loginregisterbuttonbg: {
+    height: 40,
+    width: '90%',
+    backgroundColor: 'black',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    borderRadius: 10,
+  },
+  loginregistertext: {
+    color: '#FFFFFF',
+    fontSize: 13,
+    alignSelf: 'center',
+    // fontWeight: 700,
+    letterSpacing: 0.4,
+    fontFamily: 'Montserrat',
+    color: 'white',
+  },
+  switchtoregister: {
+    fontWeight: '600',
+    fontSize: 14,
+    color: 'black',
+    alignSelf: 'flex-end',
+    paddingRight: 20,
+  },
+});
+export default styles;
